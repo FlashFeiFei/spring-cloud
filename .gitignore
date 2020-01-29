@@ -1,0 +1,208 @@
+.idea
+
+### eureka-client ###
+eureka-client/HELP.md
+eureka-client/target/
+eureka-client/!.mvn/wrapper/maven-wrapper.jar
+eureka-client/!**/src/main/**
+eureka-client/!**/src/test/**
+
+### STS ###
+eureka-client/.apt_generated
+eureka-client/.classpath
+eureka-client/.factorypath
+eureka-client/.project
+eureka-client/.settings
+eureka-client/.springBeans
+eureka-client/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-client/.idea
+eureka-client/*.iws
+eureka-client/*.iml
+eureka-client/*.ipr
+
+### NetBeans ###
+eureka-client/nbproject/private/
+eureka-client/nbbuild/
+eureka-client/dist/
+eureka-client/nbdist/
+eureka-client/.nb-gradle/
+eureka-client/build/
+
+### VS Code ###
+eureka-client/.vscode/
+
+
+
+### eureka-feign-client ###
+eureka-feign-client/HELP.md
+eureka-feign-client/target/
+eureka-feign-client/!.mvn/wrapper/maven-wrapper.jar
+eureka-feign-client/!**/src/main/**
+eureka-feign-client/!**/src/test/**
+
+### STS ###
+eureka-feign-client/.apt_generated
+eureka-feign-client/.classpath
+eureka-feign-client/.factorypath
+eureka-feign-client/.project
+eureka-feign-client/.settings
+eureka-feign-client/.springBeans
+eureka-feign-client/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-feign-client/.idea
+eureka-feign-client/*.iws
+eureka-feign-client/*.iml
+eureka-feign-client/*.ipr
+
+### NetBeans ###
+eureka-feign-client/nbproject/private/
+eureka-feign-client/nbbuild/
+eureka-feign-client/dist/
+eureka-feign-client/nbdist/
+eureka-feign-client/.nb-gradle/
+eureka-feign-client/build/
+
+### VS Code ###
+eureka-feign-client/.vscode/
+
+
+
+### eureka-monitor-client ###
+eureka-monitor-client/HELP.md
+eureka-monitor-client/target/
+eureka-monitor-client/!.mvn/wrapper/maven-wrapper.jar
+eureka-monitor-client/!**/src/main/**
+eureka-monitor-client/!**/src/test/**
+
+### STS ###
+eureka-monitor-client/.apt_generated
+eureka-monitor-client/.classpath
+eureka-monitor-client/.factorypath
+eureka-monitor-client/.project
+eureka-monitor-client/.settings
+eureka-monitor-client/.springBeans
+eureka-monitor-client/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-monitor-client/.idea
+eureka-monitor-client/*.iws
+eureka-monitor-client/*.iml
+eureka-monitor-client/*.ipr
+
+### NetBeans ###
+eureka-monitor-client/nbproject/private/
+eureka-monitor-client/nbbuild/
+eureka-monitor-client/dist/
+eureka-monitor-client/nbdist/
+eureka-monitor-client/.nb-gradle/
+eureka-monitor-client/build/
+
+### VS Code ###
+eureka-monitor-client/.vscode/
+
+
+
+### eureka-ribbon-client ###
+eureka-ribbon-client/HELP.md
+eureka-ribbon-client/target/
+eureka-ribbon-client/!.mvn/wrapper/maven-wrapper.jar
+eureka-ribbon-client/!**/src/main/**
+eureka-ribbon-client/!**/src/test/**
+
+### STS ###
+eureka-ribbon-client/.apt_generated
+eureka-ribbon-client/.classpath
+eureka-ribbon-client/.factorypath
+eureka-ribbon-client/.project
+eureka-ribbon-client/.settings
+eureka-ribbon-client/.springBeans
+eureka-ribbon-client/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-ribbon-client/.idea
+eureka-ribbon-client/*.iws
+eureka-ribbon-client/*.iml
+eureka-ribbon-client/*.ipr
+
+### NetBeans ###
+eureka-ribbon-client/nbproject/private/
+eureka-ribbon-client/nbbuild/
+eureka-ribbon-client/dist/
+eureka-ribbon-client/nbdist/
+eureka-ribbon-client/.nb-gradle/
+eureka-ribbon-client/build/
+
+### VS Code ###
+eureka-ribbon-client/.vscode/
+
+
+### eureka-server ###
+eureka-server/HELP.md
+eureka-server/target/
+eureka-server/!.mvn/wrapper/maven-wrapper.jar
+eureka-server/!**/src/main/**
+eureka-server/!**/src/test/**
+
+### STS ###
+eureka-server/.apt_generated
+eureka-server/.classpath
+eureka-server/.factorypath
+eureka-server/.project
+eureka-server/.settings
+eureka-server/.springBeans
+eureka-server/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-server/.idea
+eureka-server/*.iws
+eureka-server/*.iml
+eureka-server/*.ipr
+
+### NetBeans ###
+eureka-server/nbproject/private/
+eureka-server/nbbuild/
+eureka-server/dist/
+eureka-server/nbdist/
+eureka-server/.nb-gradle/
+eureka-server/build/
+
+### VS Code ###
+eureka-server/.vscode/
+
+
+
+### eureka-zuul ###
+eureka-zuul/HELP.md
+eureka-zuul/target/
+eureka-zuul/!.mvn/wrapper/maven-wrapper.jar
+eureka-zuul/!**/src/main/**
+eureka-zuul/!**/src/test/**
+
+### STS ###
+eureka-zuul/.apt_generated
+eureka-zuul/.classpath
+eureka-zuul/.factorypath
+eureka-zuul/.project
+eureka-zuul/.settings
+eureka-zuul/.springBeans
+eureka-zuul/.sts4-cache
+
+### IntelliJ IDEA ###
+eureka-zuul/.idea
+eureka-zuul/*.iws
+eureka-zuul/*.iml
+eureka-zuul/*.ipr
+
+### NetBeans ###
+eureka-zuul/nbproject/private/
+eureka-zuul/nbbuild/
+eureka-zuul/dist/
+eureka-zuul/nbdist/
+eureka-zuul/.nb-gradle/
+eureka-zuul/build/
+
+### VS Code ###
+eureka-zuul/.vscode/

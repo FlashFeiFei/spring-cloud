@@ -1,0 +1,25 @@
+---
+#第一个节点配置
+spring:
+  #项目启动时需要加载哪一个文件配置的表示
+  profiles: peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: spring.peer1.com
+  client:
+    service-url:
+      defaultZone: http://spring.peer2.com:8762/eureka/
+---
+#第二个节点配置
+spring:
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: spring.peer2.com
+  client:
+    service-url:
+      defaultZone: http://spring.peer1.com:8761/eureka/

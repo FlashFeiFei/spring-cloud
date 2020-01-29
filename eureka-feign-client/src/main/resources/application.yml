@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-feign-client
+server:
+  port: 8766
+eureka:
+  client:
+    service-url:
+      defaultZone: http://spring.peer1.com:8761/eureka/
+#feign里面包含了fystrix熔断器，配置，开启熔断器就行
+feign:
+  hystrix:
+    enabled: true

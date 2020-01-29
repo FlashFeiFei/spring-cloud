@@ -1,0 +1,49 @@
+#服务发现
+eureka:
+  client:
+    service-url:
+      #配置服务发现地址
+      defaultZone: http://spring.peer1.com:8761/eureka/
+#tomcat配置
+server:
+  port: 8768
+#spring项目配置
+spring:
+  application:
+    #项目application名字
+    name: service-zuul
+
+#zuul网关配置,会自带负载均衡
+zuul:
+  #网关路由配置
+  routes:
+    #自定义的key
+    hiapi:
+      #自定义的路由
+      path: /hiapi/**
+      #路由对应在服务发现中，应用名
+      serviceId: eureka-client
+      #若指定url，则不会使用负载均衡
+      #url: http://localhost:8763
+    ribbonapi:
+      path: /ribbonapi/**
+      serviceId: eureka-ribbon-client
+    feignapi:
+      path: /feignapi/**
+      serviceId: eureka-feign-client
+  #网关前缀
+  prefix: /v1
+
+---
+#自定以负载均衡配置
+#zuul:
+#  routes:
+#    hiapi:
+#      path: /hiapi/**
+#      serviceId: eureka-client
+#ribbon:
+#  eureka:
+#    enabled: false
+#hiapi:
+#  ribbon:
+#    listOfServers: http://localhost:8673,http://localhost:8764

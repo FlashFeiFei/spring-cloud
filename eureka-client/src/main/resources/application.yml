@@ -1,0 +1,28 @@
+---
+spring:
+  application:
+    #定义服务的名字
+    name: eureka-client
+  profiles: ribbon01
+server:
+  port: 8763
+eureka:
+  client:
+    service-url:
+      defaultZone: http://spring.peer1.com:8761/eureka/
+
+
+---
+
+spring:
+  application:
+    #定义服务的名字
+    name: eureka-client
+  profiles: ribbon02
+server:
+  port: 8764
+eureka:
+  client:
+    service-url:
+      defaultZone: http://spring.peer1.com:8761/eureka/
+
