@@ -1,0 +1,36 @@
+#配置本地文件的目录
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/shared
+#  #激活
+#  profiles:
+#    active: native
+#  application:
+#    name: config-server
+#server:
+#  port: 8769
+
+#配置通过git远程仓库来弄
+server:
+  port: 8769
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: G:/javaCode/spring-cloud/config.git/
+          #搜索的文件夹
+          search-paths: respo
+          username: 51785816@qq.com
+          password: 这是你git的密码
+      #标签,仓库的分支名
+      label: master
+  application:
+    name: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

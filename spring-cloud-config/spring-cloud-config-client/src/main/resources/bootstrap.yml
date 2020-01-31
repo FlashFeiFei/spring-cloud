@@ -1,0 +1,34 @@
+#bootstrap相对于application具有优先的执行顺序.
+#spring:
+#  application:
+#    #项目名字必须与config-server中读取的配置文件的名字一样,并且用 - 号相连
+#    #配置文件的最后定义 = 项目名字 + "-" + profiles.active的值 + ".yml"
+#    name: config-client
+#  #配置读取配置文件服务的地址
+#  cloud:
+#    config:
+#      uri: http://localhost:8769
+#      #如果没有读取成功，则执行快速失败
+#      fail-fast: true
+#  #便于查找配置文件的后缀
+#  profiles:
+#    active: dev
+
+---
+#为了高可用通过服务发现负载均衡去连接
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      #会自带有负载均衡
+      discovery:
+        enabled: true
+        service-id: config-server
+      fail-fast: true
+  profiles:
+    active: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
