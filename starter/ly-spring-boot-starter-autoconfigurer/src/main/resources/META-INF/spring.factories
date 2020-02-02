@@ -1,0 +1,4 @@
+# Auto Configure
+# Spring Boot 启动的时候需要加载哪些自动配置类？ 需要加载laravel哪些服务提供者
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ly.starter.HelloServiceAutoConfiguration
